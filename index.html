@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Application</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body id="body">
+    <h1 id="title">Welcome To RILE</h1>
+    <form action="get">
+      <p id="create">Create your account</p>
+      <br />
+      <br />
+      <label for="e-mail">E-mail</label>
+      <br />
+      <input
+        type="text"
+        id="e-mail"
+        placeholder="sophiaononogbu@gmail.com"
+        required
+      />
+      <hr />
+      <br />
+      <br />
+
+      <label for="password">Password</label>
+      <br />
+
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="6+ strong character"
+        required
+      />
+      <hr />
+
+      <br />
+      <br />
+
+      <label for="repeat">Repeat password</label>
+      <br />
+
+      <input
+        type="password"
+        name="repeat"
+        id="repeat"
+        placeholder="6+ strong character"
+        required
+      />
+      <hr />
+
+      <br />
+      <br />
+
+      <div class="check">
+        <input type="checkbox" name="days" id="days" />
+        <label>Remember for 30 days</label>
+
+        <article id="article">Forgot password?</article>
+      </div>
+
+      <button id="btn">Create an account</button>
+    </form>
+    <div class="with">
+      <p>Sign up with  <span class="Sign">Other...</span></p>
+      <img src="./assets/line-md--facebook 2.svg" alt="" />
+      <img src="" alt="" />
+      <img src="" alt="" />
+    </div>
+    <p>Don't have an account? <span id="Sign">Sign up</span></p>
+  </body>
+  <script src="form.js"></script>
+</html>
